@@ -9,7 +9,7 @@
 7. // SELECT * FROM products WHERE products.units_in_stock = 0;
 8. // SELECT AVG(unit_price) FROM products;
 9. // SELECT SUM(order_details.unit_price) * SUM(order_details.quantity) FROM order_details GROUP BY order_details.product_id;
-10. // 
+10. // SELECT * FROM products where products.discontinued = 1;
 11.
 12.
 13.
