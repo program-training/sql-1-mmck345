@@ -2,7 +2,7 @@
 
 1. // SELECT p.product_id, p.product_name, p.category_id FROM Products as p;
 2. // SELECT * FROM Customers WHERE Country = 'Germany';
-3.
+3. // SELECT * FROM Orders WHERE customer_id = 'VINET';
 4.
 5.
 6.
