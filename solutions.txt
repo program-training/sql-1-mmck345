@@ -11,7 +11,7 @@
 9. // SELECT SUM(order_details.unit_price) * SUM(order_details.quantity) FROM order_details GROUP BY order_details.product_id;
 10. // SELECT * FROM products where products.discontinued = 1;
 11. // SELECT COUNT(*) FROM orders WHERE  EXTRACT (YEAR FROM order_date) = 1997;
-12.
+12. // SELECT * FROM customers where customers.contact_title in ('Owner', 'CEO');
 13.
 14.
 15.
