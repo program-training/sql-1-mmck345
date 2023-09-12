@@ -21,4 +21,4 @@
 19. // SELECT * FROM orders WHERE order_date = '1997-05-05';
 20. // SELECT * FROM orders WHERE order_date = '1997-05-05';
 21. // SELECT product_id, product_name, unit_price FROM products WHERE unit_price > (SELECT AVG(unit_price) FROM products);
-22.
+22. // SELECT city, COUNT(*) FROM employees GROUP BY city;
