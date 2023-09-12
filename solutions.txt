@@ -17,7 +17,7 @@
 15. // SELECT AVG(EXTRACT(YEAR FROM AGE(current_date, birth_date))) FROM employees;
 16. // SELECT * FROM customers WHERE customers.phone LIKE '%123%';
 17. // SELECT * FROM products WHERE units_in_stock > 10 AND discontinued = 0;
-18.
+18. // SELECT MAX(unit_price) AS HighestPrice, MIN(unit_price) AS LowestPrice FROM products;
 19.
 20.
 21.
