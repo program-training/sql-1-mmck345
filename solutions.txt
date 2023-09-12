@@ -9,14 +9,14 @@
 7. // SELECT * FROM products WHERE products.units_in_stock = 0;
 8. // SELECT AVG(unit_price) FROM products;
 9. // SELECT SUM(order_details.unit_price) * SUM(order_details.quantity) FROM order_details GROUP BY order_details.product_id;
-10. // SELECT * FROM products where products.discontinued = 1;
-11. // SELECT COUNT(*) FROM orders WHERE  EXTRACT (YEAR FROM order_date) = 1997;
-12. // SELECT * FROM customers where customers.contact_title in ('Owner', 'CEO');
-13. // SELECT * FROM products ORDER BY unit_price DESC limit 1;
-14. // SELECT AVG(EXTRACT(YEAR FROM AGE(current_date, birth_date))) FROM employees;
-15. // SELECT * FROM customers WHERE customers.phone LIKE '%123%';
-16. 
-17.
+10. // SELECT category_id, count(category_id) FROM products group by products.category_id;
+11. // SELECT * FROM products where products.discontinued = 1;
+12. // SELECT COUNT(*) FROM orders WHERE EXTRACT (YEAR FROM order_date) = 1997;
+13. // SELECT * FROM customers where customers.contact_title in ('Owner', 'CEO');
+14. // SELECT * FROM products ORDER BY unit_price DESC limit 1;
+15. // SELECT AVG(EXTRACT(YEAR FROM AGE(current_date, birth_date))) FROM employees;
+16. // SELECT * FROM customers WHERE customers.phone LIKE '%123%';
+17. // 
 18.
 19.
 20.
