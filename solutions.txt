@@ -8,8 +8,8 @@
 6. // SELECT * FROM employees WHERE employees.birth_date < '01-01-1960';
 7. // SELECT * FROM products WHERE products.units_in_stock = 0;
 8. // SELECT AVG(unit_price) FROM products;
-9.
-10.
+9. // SELECT SUM(order_details.unit_price) * SUM(order_details.quantity) FROM order_details GROUP BY order_details.product_id;
+10. // 
 11.
 12.
 13.
