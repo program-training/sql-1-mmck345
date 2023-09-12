@@ -3,7 +3,7 @@
 1. // SELECT p.product_id, p.product_name, p.category_id FROM Products as p;
 2. // SELECT * FROM Customers WHERE Country = 'Germany';
 3. // SELECT * FROM Orders WHERE customer_id = 'VINET';
-4.
+4. // SELECT customer_id, count(order_id) as TotalOrders FROM Orders GROUP BY customer_id;
 5.
 6.
 7.
